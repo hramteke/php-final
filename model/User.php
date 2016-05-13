@@ -1,23 +1,30 @@
 <?php
 
-class User {
+namespace model\User;
+
+class User
+{
     private $name;
 
     private $age;
 
-    public function getName() {
+    public function getName()
+    {
         return $this->name;
     }
 
-    public function setName($name) {
+    public function setName($name)
+    {
         $this->name = $name;
     }
 
-    public function getAge() {
+    public function getAge()
+    {
         return $this->age;
     }
 
-    public function setAge($age) {
+    public function setAge($age)
+    {
         $this->age = $age;
     }
 }

@@ -14,9 +14,9 @@ $age = $tokens[4];
 //echo 'Controller Name: '. $controllerName . '<br/>';
 //echo 'Method Name: '. $methodName . '<br/>';
 $controllerFile = 'controller/'.$controllerName.'.php';
-if(file_exists($controllerFile)) {
+if (file_exists($controllerFile)) {
+    /** @noinspection PhpIncludeInspection */
     require_once($controllerFile);
     $controller = new $controllerName;
     $controller->$methodName($name, $age);
 }
-?>

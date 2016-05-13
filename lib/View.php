@@ -1,11 +1,16 @@
 <?php
 
-class View {
-	public function __construct() {
-		
-	}
+namespace lib\View;
 
-	public function render($viewScript) {
-		require($viewScript);
-	}
+class View
+{
+    public function __construct()
+    {
+    }
+
+    public function render($viewScript)
+    {
+        /** @noinspection PhpIncludeInspection */
+        require($viewScript);
+    }
 }

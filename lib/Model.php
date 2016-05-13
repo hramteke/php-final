@@ -1,5 +1,8 @@
 <?php
 
-class Model {
+namespace model\Model;
+
+class Model
+{
 
 }
