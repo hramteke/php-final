@@ -2,6 +2,13 @@
 
 namespace controller;
 
+/** @noinspection PhpIncludeInspection */
+require_once('lib/Controller.php');
+/** @noinspection PhpIncludeInspection */
+require_once('model/User.php');
+/** @noinspection PhpIncludeInspection */
+require_once('service/UserService.php');
+
 use model\User\User;
 use service\UserService\UserService;
 

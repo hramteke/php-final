@@ -1,6 +1,9 @@
 <?php
 
-namespace Controller;
+namespace controller;
+
+/** @noinspection PhpIncludeInspection */
+require_once('lib/View.php');
 
 use lib\View\View;
 

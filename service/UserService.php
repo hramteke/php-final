@@ -6,6 +6,9 @@ use lib\Database\Database;
 use model\User\User;
 use PDO;
 
+/** @noinspection PhpIncludeInspection */
+require_once('lib/Database.php');
+
 class UserService
 {
 
